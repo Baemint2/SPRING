@@ -1,0 +1,2 @@
+spring.h2.console.enabled=true
+#url=jdbc:h2:mem:a0c626a7-52a2-400d-8fe7-de094cdec358 user=SA

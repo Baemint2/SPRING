@@ -1,0 +1,2 @@
+insert into todos(ID, USERNAME, DESCRIPTION, TARGET_DATE, DONE)
+values(10001, "mozi" ,"Get AWS Certified", NOW(), false)

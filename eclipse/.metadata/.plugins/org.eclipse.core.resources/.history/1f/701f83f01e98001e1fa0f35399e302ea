@@ -1,0 +1,55 @@
+package com.moz1mozi.learnspringframework.examples.c1;
+
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Component
+class BusinessService {
+	private DataService dataService;
+
+	@Autowired
+	public DataService getDataService() {
+		System.out.println("Setter Injection");
+		return dataService;
+	}
+
+	public void setDataService(DataService dataService) {
+		this.dataService = dataService;
+	}
+	
+	
+}
+
+@Component
+class DataService {
+	
+}
+
+@Configuration
+@ComponentScan
+//@Qualifier("PackmanGame")
+public class RealWorldSpringContextLauncherApplication {
+	
+	public static void main(String[] args) {
+
+		try(var context =
+				new AnnotationConfigApplicationContext
+				(RealWorldSpringContextLauncherApplication.class)) {
+			
+			Arrays.stream(context.getBeanDefinitionNames())
+				.forEach(System.out::println);
+			System.out.println(context.getBean(BusinessCalculationService.class).findMax());
+			
+			System.out.println(context.getBean(BusinessService.class).getDataService());
+		}
+
+	}
+
+}

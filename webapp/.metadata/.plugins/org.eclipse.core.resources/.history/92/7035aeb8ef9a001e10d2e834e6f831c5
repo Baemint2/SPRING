@@ -1,0 +1,10 @@
+spring.mvc.view.prefix=/jsp/
+spring.mvc.view.suffix=.jsp
+logging.level.org.springframework=info
+logging.level.com.mozi.springboot.myfirstwebapp=debug
+#spring.mvc.view.prefix=/login
+#spring.mvc.view.suffix=.jsp
+spring.mvc.format.date=yyyy-MM-dd
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initialization=true

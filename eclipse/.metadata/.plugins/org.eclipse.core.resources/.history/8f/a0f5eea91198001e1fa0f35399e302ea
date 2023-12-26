@@ -1,0 +1,11 @@
+package com.moz1mozi.learnspringframework.examples.c1;
+
+import java.util.Arrays;
+
+public class BusinessCalculationService {
+	private DataSerivce dataSerivce; 
+	public int findMax()
+		return Arrays.stream(dataSerivce.retrieveData())
+				.max().orElse(0);
+
+}

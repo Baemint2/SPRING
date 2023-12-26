@@ -1,0 +1,5 @@
+package com.moz1.springboot.learnjpaandhibernate.course;
+
+public class Course {
+
+}

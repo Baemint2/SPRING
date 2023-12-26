@@ -1,0 +1,8 @@
+package com.moz1mozi.learnspringframework;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class HelloWorldConfiguration {
+
+}

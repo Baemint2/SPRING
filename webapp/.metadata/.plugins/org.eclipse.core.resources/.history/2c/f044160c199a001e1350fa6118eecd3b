@@ -1,0 +1,5 @@
+spring.mvc.view.prefix=/jsp/
+spring.mvc.view.suffix=.jsp
+logging.level.org.springframework=debug
+#spring.mvc.view.prefix=/login
+#spring.mvc.view.suffix=.jsp

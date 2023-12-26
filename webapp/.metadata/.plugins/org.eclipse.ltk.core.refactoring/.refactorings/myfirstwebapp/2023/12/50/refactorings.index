@@ -1,0 +1,15 @@
+1702512503053	Copy file
+1702512615060	Move compilation unit
+1702516182511	Copy file
+1702519968806	Copy file
+1702527098458	Copy file
+1702528002006	Extract local variable 'username'
+1702544157348	Delete element
+1702544191879	Delete element
+1702544225015	Rename compilation unit 'LoginController.java'
+1702547429178	Extract method 'getLoggedInUsername'
+1702547657183	Extract local variable 'password'
+1702547695655	Extract method 'createNewUser'
+1702547706534	Inline local variable 'username'
+1702547716884	Inline local variable 'password'
+1702553313323	Copy compilation unit

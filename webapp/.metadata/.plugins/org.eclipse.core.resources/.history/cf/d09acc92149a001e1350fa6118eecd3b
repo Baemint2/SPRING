@@ -1,0 +1,11 @@
+package com.mozi.springboot.myfirstwebapp.hello;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class LoginController {
+	@RequestMapping("login-jsp")
+	public String loginJsp() {
+		return "login";
+
+}
+}

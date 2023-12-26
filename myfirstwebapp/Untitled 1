@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>My first HTML Page</title>
+	</head>
+	<body>
+		My first html page with body
+	</body>
+</html>
+
+/src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+
+/META-INF/resources/webjars/bootstrap/5.3.2/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.3.2/js/bootstrap.min.js
+/META-INF/resources/webjars/jquery/3.7.1/jquery.min.js

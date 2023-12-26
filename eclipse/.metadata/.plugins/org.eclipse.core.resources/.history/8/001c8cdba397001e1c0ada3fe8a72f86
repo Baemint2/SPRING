@@ -1,0 +1,5 @@
+package com.moz1mozi.learnspringframework;
+
+public interface GamingConsole {
+
+}

@@ -1,0 +1,5 @@
+package com.moz1.springboot.learnspringboot;
+
+public class CourseController {
+
+}

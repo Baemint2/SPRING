@@ -1,0 +1,7 @@
+logging.level.org.springframework=trace
+spring.profiles.active=dev
+
+
+currency-service.url="http://default.moz1.com
+currency-service.username=defaultusername
+currency-service.key=defaultkey

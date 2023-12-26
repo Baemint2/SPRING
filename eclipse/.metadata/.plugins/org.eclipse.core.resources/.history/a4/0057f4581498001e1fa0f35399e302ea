@@ -1,0 +1,30 @@
+package com.moz1mozi.learnspringframework.examples.d1;
+
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+@ComponentScan("com.moz1mozi.learnspringframework.exam.a1")
+//@Qualifier("PackmanGame")
+public class SimpleSpringContextLauncherApplication {
+	
+	public static void main(String[] args) {
+
+		try(var context =
+				new AnnotationConfigApplicationContext
+				(LazyinitializationLauncherApplication.class)) {
+			
+			Arrays.stream(context.getBeanDefinitionNames())
+				.forEach(System.out::println);
+
+		}
+
+	}
+
+}

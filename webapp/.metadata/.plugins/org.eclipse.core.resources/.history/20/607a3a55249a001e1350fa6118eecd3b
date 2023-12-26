@@ -1,0 +1,5 @@
+package com.mozi.springboot.myfirstwebapp.todo;
+
+public class Todo {
+
+}
